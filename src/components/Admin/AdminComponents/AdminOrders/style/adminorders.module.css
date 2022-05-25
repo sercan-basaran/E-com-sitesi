@@ -1,0 +1,18 @@
+.ordersMain {
+  margin-left: 350px;
+}
+
+.breadLink {
+  color: #37a0bd;
+  text-decoration: none;
+}
+
+.lastCrumb {
+  color: #666;
+}
+
+.crumbIcon {
+  font-size: 18px;
+  margin-right: 10px;
+}
+/*# sourceMappingURL=adminorders.module.css.map */

@@ -1,0 +1,20 @@
+$mainColor: #263c97;
+$secondColor: #37a0bd;
+$transition: all 0.3s ease-in-out;
+$hoverColor: $secondColor !important;
+$borderBottom: 1px solid #ebebeb;
+
+.ordersMain {
+  margin-left: 350px;
+}
+.breadLink {
+  color: $secondColor;
+  text-decoration: none;
+}
+.lastCrumb {
+  color: #666;
+}
+.crumbIcon {
+  font-size: 18px;
+  margin-right: 10px;
+}

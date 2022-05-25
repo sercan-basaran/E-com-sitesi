@@ -1,0 +1,607 @@
+.checkoutTitle {
+  display: inline-block;
+}
+
+.stepWrapper {
+  margin: 1rem 0;
+  width: 100%;
+}
+
+.checkoutWrapper {
+  background-color: #fff;
+  position: relative;
+  margin: 2rem 0;
+  padding: 2rem;
+  -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+          box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.basketProductName {
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+}
+
+.basketProductNameWrapper {
+  min-height: 46px;
+}
+
+.basketProduct {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+          box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.basketImg {
+  width: 100%;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.basketProductImg {
+  width: 100px;
+}
+
+.basketProductInfo {
+  width: 100%;
+  padding: 10px;
+  text-align: start;
+  height: 100%;
+  background-color: rgba(240, 240, 240, 0.486);
+}
+
+.basketProductPrice {
+  font-size: 15px;
+}
+
+.priceValue {
+  font-weight: 550;
+  color: #16bcdc !important;
+}
+
+.removeCartBtn {
+  color: #fff !important;
+  background-color: #c21212 !important;
+  border-color: #c21212 !important;
+  border-radius: 5px;
+  font-size: 13px;
+}
+
+.basketProductQuantity {
+  margin: 0 !important;
+}
+
+.checkoutSummaryItemTitle {
+  font-size: 15px;
+  margin: 0 !important;
+}
+
+.checkoutSummaryItemValue {
+  margin: 0 !important;
+  font-size: 15px;
+  font-weight: bold;
+  color: #16bcdc !important;
+}
+
+.checkoutSummary {
+  padding: 0 1rem;
+}
+
+.checkoutSummaryItemTotal {
+  margin: 0;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.checkoutSummaryItemTotalValue {
+  margin: 0 !important;
+  font-weight: bold;
+  font-size: 16px;
+  color: #16bcdc !important;
+}
+
+.summaryItem {
+  padding: 10px 0;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.summaryItem:last-child {
+  border-bottom: none;
+}
+
+.continueBtn {
+  color: #fff !important;
+  background-color: #263c97 !important;
+  border-radius: 5px;
+  border-color: #16bcdc !important;
+  outline: 1;
+}
+
+.BasketProductLength {
+  margin: 1rem 0;
+}
+
+.BasketProductLengthValue {
+  margin: 0;
+}
+
+.checkoutWrapper {
+  position: relative;
+  width: 100%;
+}
+
+.checkoutLoader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  right: 0;
+  z-index: 9;
+  background-color: rgba(255, 255, 255, 0.788);
+}
+
+.checkoutAnimation {
+  width: 150px;
+}
+
+.addressWrapper {
+  padding: 0 3rem;
+}
+
+.addressButtons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.checkoutBackBtn {
+  border-color: #263c97 !important;
+  color: #263c97 !important;
+}
+
+@media screen and (max-width: 414px) {
+  .addressWrapper {
+    padding: 0 !important;
+  }
+  .addressButtons {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .continueBtn {
+    width: 100%;
+    margin: 0.5rem 0;
+  }
+  .checkoutBackBtn {
+    width: 100%;
+  }
+}
+
+.paymentHeader {
+  width: 120px;
+}
+
+.payCounter {
+  font-size: 21px;
+  margin: 0 1rem;
+  font-weight: 600;
+}
+
+.paymentCard {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.paymentCardInner {
+  width: 370px;
+  position: relative;
+  z-index: 0;
+}
+
+.paymentCardArea {
+  background-image: radial-gradient(circle farthest-corner at 10% 20%, #61baff 0%, #a6effd 90.1%);
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.paymentCardBack {
+  position: absolute;
+  top: 0;
+  left: 100px;
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(circle farthest-corner at 10% 20%, #61baff 0%, #a6effd 90.1%);
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  z-index: -1;
+}
+
+.paymentCardBackInner {
+  padding: 1rem 0;
+}
+
+.paymentCardChip {
+  width: 60px;
+}
+
+.contactlessIcon {
+  background-color: transparent;
+  -webkit-filter: invert(1);
+          filter: invert(1);
+  width: 30px;
+}
+
+.cardNumberArea {
+  text-align: start;
+  margin: 0.5rem 0;
+}
+
+.cardNumberShow {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 25px;
+  font-weight: bold;
+  color: #333;
+  width: 100%;
+}
+
+.cardNumberShow::-webkit-input-placeholder {
+  font-size: 25px;
+}
+
+.cardNumberShow:-ms-input-placeholder {
+  font-size: 25px;
+}
+
+.cardNumberShow::-ms-input-placeholder {
+  font-size: 25px;
+}
+
+.cardNumberShow::placeholder {
+  font-size: 25px;
+}
+
+.cardTitles {
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.cardNameShow {
+  border: none;
+  outline: none;
+  font-weight: bold;
+  color: #333;
+  background-color: transparent;
+  font-size: 16px;
+  width: 100%;
+}
+
+.cardNameShow::-webkit-input-placeholder {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.cardNameShow:-ms-input-placeholder {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.cardNameShow::-ms-input-placeholder {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.cardNameShow::placeholder {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.cardExpireShow {
+  width: 100px;
+  border: none;
+  font-weight: bold;
+  color: #333;
+  outline: none;
+  background-color: transparent;
+  font-size: 16px;
+}
+
+.cardExpireShow::-webkit-input-placeholder {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.cardExpireShow:-ms-input-placeholder {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.cardExpireShow::-ms-input-placeholder {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.cardExpireShow::placeholder {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.paymentCardCVVArea {
+  margin: 1.5rem 0;
+  padding: 1rem 0;
+  width: 100%;
+  background-color: rgba(243, 243, 243, 0.486);
+}
+
+.cardCVV {
+  border: none;
+  outline: none;
+  font-weight: bold;
+  color: #333;
+  background-color: transparent;
+  font-size: 16px;
+  width: 60px;
+  text-align: center;
+}
+
+.cardCVV::-webkit-input-placeholder {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.cardCVV:-ms-input-placeholder {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.cardCVV::-ms-input-placeholder {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.cardCVV::placeholder {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.paymentCardCVVFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cardBrandIcon {
+  width: 90px;
+}
+
+.payTimeOut {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  z-index: 9;
+}
+
+.payStatus {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  right: 0;
+  z-index: 9;
+  background-color: rgba(255, 255, 255, 0.788);
+}
+
+.paymentWrapper {
+  width: 100%;
+  display: block;
+}
+
+.paymentAnimation {
+  width: 300px;
+}
+
+.orderSuccessWrapper {
+  width: 100%;
+  display: block;
+}
+
+.orderSuccessInner {
+  padding: 1rem;
+}
+
+.orderSuccessHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.successIcon {
+  width: 90px;
+  margin-bottom: 1rem;
+}
+
+.successOrderIDTitle {
+  text-align: center;
+  color: #16bcdc;
+}
+
+.orderID {
+  color: #000;
+}
+
+.orderSuccessAddress {
+  width: 100%;
+}
+
+.orderSuccessAddressTitle {
+  padding: 1rem .5rem;
+  display: block;
+}
+
+.orderSuccessAddressInner {
+  border: 1px solid #ebebeb;
+}
+
+.orderSuccessAddressList {
+  margin: 0;
+  padding: .5rem 1rem;
+}
+
+.orderAddressList {
+  list-style: none;
+  padding: .5rem 0;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.orderAddressList:last-child {
+  border-bottom: none;
+}
+
+.addressTitle {
+  font-weight: 550;
+  display: inline-block;
+  margin-right: .5rem;
+  color: #16bcdc;
+}
+
+.orderSuccessProducts {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.orderSuccessProductsTitle {
+  padding: 1rem .5rem;
+}
+
+.orderSuccessProductImage {
+  width: 60px;
+}
+
+.orderSuccesProductList {
+  margin: 0;
+  padding: 0;
+}
+
+.orderSuccessProductsInner {
+  border: 1px solid #ebebeb;
+  padding: .5rem;
+}
+
+.orderSuccessProductListItem {
+  list-style: none;
+  width: 100%;
+  margin-bottom: .5rem;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.orderSuccessProductListItem:last-child {
+  border-bottom: none;
+}
+
+.orderSuccessProductTitle {
+  font-weight: 550;
+  display: inline-block;
+  margin-left: .5rem;
+  color: #16bcdc;
+}
+
+.orderSuccessTotal {
+  text-align: end;
+}
+
+.orderSuccessTotalTitle {
+  font-weight: 550;
+  font-size: 17px;
+}
+
+.orderSuccessTotalTitle .orderProductTotal {
+  color: #16bcdc;
+}
+
+.orderSuccessButton {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.orderSuccessButtonInner {
+  background-color: #16bcdc;
+}
+
+.orderSuccessButtonInner:hover .orderSuccessButtonText {
+  color: #16bcdc !important;
+}
+
+.orderSuccessButtonText {
+  color: #fff;
+}
+
+@media screen and (max-width: 991.99px) {
+  .paymentCard {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (max-width: 639.99px) {
+  .paymentCardBack {
+    display: none !important;
+  }
+}
+/*# sourceMappingURL=checkout.module.css.map */

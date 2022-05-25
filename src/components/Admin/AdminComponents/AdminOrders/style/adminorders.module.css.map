@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAMA,AAAA,WAAW,CAAC;EACV,WAAW,EAAE,KAAK;CACnB;;AACD,AAAA,UAAU,CAAC;EACT,KAAK,EATO,OAAO;EAUnB,eAAe,EAAE,IAAI;CACtB;;AACD,AAAA,UAAU,CAAC;EACT,KAAK,EAAE,IAAI;CACZ;;AACD,AAAA,UAAU,CAAC;EACT,SAAS,EAAE,IAAI;EACf,YAAY,EAAE,IAAI;CACnB",
+    "sources": [
+        "adminorders.module.scss"
+    ],
+    "names": [],
+    "file": "adminorders.module.css"
+}

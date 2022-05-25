@@ -1,0 +1,132 @@
+$mainColor: #263c97;
+$secondColor: #37a0bd;
+$transition: all 0.3s ease-in-out;
+$hoverColor: $secondColor !important;
+$borderBottom: 1px solid #ebebeb;
+
+.AdminInfo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #fff;
+  width: 100%;
+  padding: 1rem 0.5rem;
+  border-radius: 10px;
+}
+.adminImg {
+  width: 50px;
+  margin: 0 0.5rem;
+  img {
+    border-radius: 50%;
+  }
+}
+.adminName {
+  color: $secondColor;
+}
+.adminTitle {
+  margin: 0;
+  color: #666;
+  font-size: 14px;
+}
+.adminNameWrapper {
+  margin: 0 1rem;
+}
+.navbarNav {
+  padding: 0;
+
+  .navItem {
+    list-style: none;
+    margin: 0.5rem;
+
+    .navLink {
+      color: #000;
+      text-decoration: none;
+      display: block;
+      padding: 1rem 0;
+    padding-left: 2rem;
+      font-size: .9rem;
+      &:hover {
+        color: $secondColor !important;
+      }
+    }
+  }
+}
+.navSubHeader {
+  color: #666;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.adminNavigation {
+  
+  width: 100%;
+}
+.fixedNav {
+  overflow-y: scroll;
+  height: 100%;
+  &::-webkit-scrollbar {
+    display: none;
+    width: 7px;
+    transition: $transition;
+  }
+
+  &:hover {
+    &::-webkit-scrollbar {
+      display: block;
+    }
+  }
+  &::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: $secondColor;
+    border-radius: 10px;
+  }
+} 
+.hamburgerBtn{
+  display: none;
+  background-color: #37a0bd;
+  color: #fff;
+}
+.normalNav{
+  display: block;
+}
+.mobileNav{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  position: absolute;
+  z-index: 999;
+  background-color: #f4f4ff;
+  width: 100%;
+  left: 0;
+}
+
+@media screen and (max-width:1200px){
+  .normalNav {
+    display: none !important;
+  }
+  .leftMenu{
+    display: none !important;
+  }
+  .hamburgerBtn{
+    display: block !important;
+  }
+ .AdminInfo{
+   display: none !important;
+ }
+  
+}
+
+@media screen and (max-width:768px){
+
+.mobileHeader{
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  div{
+    margin: 2px 0;
+   
+  }
+}
+  
+}

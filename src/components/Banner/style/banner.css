@@ -1,0 +1,129 @@
+.carousel-info {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  top: 10%;
+  left: 10%;
+  right: 10%;
+  color: #fff;
+  font-weight: 600;
+}
+
+.carousel-info .carousel-header {
+  font-size: 40px;
+  color: #fff;
+}
+
+.carousel-info .carousel-titles {
+  font-weight: 550;
+  display: block;
+  padding: 1rem 0 !important;
+  font-size: 18px;
+}
+
+.carousel-btn {
+  margin-top: 1rem;
+  color: #fff;
+  font-size: 14px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  width: 170px;
+  text-align: center;
+  border: 2px solid #fff;
+  border-radius: 75px;
+  padding: 10px 20px;
+  text-decoration: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.carousel-btn:hover {
+  background-color: #16bcdc;
+  color: #fff !important;
+  border: 2px solid transparent;
+}
+
+.indicators {
+  margin-top: 1.5rem;
+}
+
+.indicator {
+  background-color: transparent;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.indicator:hover {
+  background-color: #fff !important;
+}
+
+.current-carousel {
+  background-color: #fff !important;
+}
+
+.carousel-image {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.banner-item-img {
+  border-radius: 20px;
+  width: 100%;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.banner-item-img:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.banner-info {
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  cursor: pointer;
+}
+
+.banner-info .banner-header {
+  color: #fff;
+  font-weight: 600;
+}
+
+.banner-info .banner-title {
+  color: #fff;
+}
+
+.boxes-url {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 992px) {
+  .carousel-header {
+    font-size: 30px !important;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .carousel-header {
+    font-size: 20px !important;
+  }
+  .carousel-titles {
+    display: none !important;
+  }
+  .carousel-btn {
+    width: 100% !important;
+  }
+}
+/*# sourceMappingURL=banner.css.map */
